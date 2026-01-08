@@ -34,7 +34,7 @@
         /* [공통] */
         html, body { margin: 0; padding: 0; background-color: #ffffff; font-family: 'Pretendard', sans-serif; -webkit-font-smoothing: antialiased; }
         
-        /* 블로그 링크 스타일 완전 통일: 두께, 색상, 밑줄 제거 */
+        /* 링크 스타일 초기화 */
         a { text-decoration: none !important; color: inherit !important; font-weight: 500 !important; }
 
         /* [PC 버전 스타일] */
@@ -67,8 +67,7 @@
             .pc-gallery img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 2s ease-in-out; filter: grayscale(100%); }
             .pc-gallery img.active { opacity: 1; }
 
-            /* PC 로고 좌측으로 살짝 이동 */
-            .main-logo { width: 183px; margin-top: 35px; margin-left: -15px; cursor: pointer; animation: pulse 6s infinite ease-in-out; }
+            .main-logo { width: 183px; margin-top: 35px; margin-left: -8px; cursor: pointer; animation: pulse 6s infinite ease-in-out; }
             @keyframes pulse { 0% { opacity: 0.3; } 50% { opacity: 1; } 100% { opacity: 0.3; } }
 
             .project-toggle { cursor: pointer; font-weight: 700; font-size: 11px; margin-top: 15px; text-decoration: underline; }
@@ -105,7 +104,6 @@
             .item, p, li, span { font-weight: 500; display: flex; align-items: baseline; margin: 0; padding: 0; }
             .para-top { margin-top: var(--section-gap); }
             
-            /* 모바일 로고 위치 그대로 유지 */
             .main-logo { width: 80%; height: auto; margin-top: 40px; margin-left: 10%; margin-bottom: 40px; }
             .divider { height: 1px; background: var(--main-color); opacity: 0.1; margin: 60px 0; width: 100%; border: none; }
             
@@ -247,15 +245,26 @@
                 
                 <h2>Participated Projects</h2>
                 <span class="item">항공기 지원시설 신축 등 군부대 프로젝트 다수 참여</span>
-                <div style="margin-top:15px;">
-                    <span class="item">프라다 플래그십 빌딩 신축</span><span class="sub-detail">(D.P.J. & Partners 재직 당시 참여)</span>
-                    <span class="item">크리스챤 디올 플래그십 빌딩 신축</span><span class="sub-detail">(D.P.J. & Partners 재직 당시 참여)</span>
-                    <span class="item">힐스테이트 동탄포레 신축</span><span class="sub-detail">(현대건설 설계팀 재직 당시 참여)</span>
+                <div style="margin-top:10px;">
+                    <span class="item">프라다 플래그십 빌딩 신축</span><span class="sub-detail">(D.P.J. & Partners 재직 당시, 실시설계 참여)</span>
+                    <span class="item">크리스챤 디올 플래그십 빌딩 신축</span><span class="sub-detail">(D.P.J. & Partners 재직 당시, 실시설계 및 CM 업무 참여)</span>
+                    <span class="item">몽클레르 플래그십 빌딩 리모델링 (대수선)</span><span class="sub-detail">(D.P.J. & Partners 재직 당시, 실시설계 및 CM 업무 참여)</span>
+                    <span class="item">하비에르 국제학교 증축</span><span class="sub-detail">(D.P.J. & Partners 재직 당시, 실시설계 및 CM 업무 참여)</span>
+                    <span class="item">샤넬 플래그십 빌딩 신축</span><span class="sub-detail">(D.P.J. & Partners 재직 당시, CM 업무 참여)</span>
+                    <span class="item">반클리프 & 아펠 플래그십 빌딩 신축</span><span class="sub-detail">(D.P.J. & Partners 재직 당시, 실시설계 참여)</span>
+                    <span class="item">MRC 원료동 신축</span><span class="sub-detail">(포스코A&C 재직 당시, 설계관리 및 인허가 참여)</span>
+                    <span class="item">포스코 광양 교육관 신축</span><span class="sub-detail">(포스코A&C 재직 당시, 설계관리 참여)</span>
+                    <span class="item">포스코휴먼스 클리닝센터 신축</span><span class="sub-detail">(포스코A&C 재직 당시, 설계관리 및 인허가 참여)</span>
+                    <span class="item">포스코 광양제철소 본부동 리모델링 (대수선)</span><span class="sub-detail">(포스코A&C 재직 당시, 설계관리 및 인허가 참여)</span>
+                    <span class="item">율촌 광석리튬사업 신축</span><span class="sub-detail">(포스코A&C 재직 당시, 설계관리 참여)</span>
+                    <span class="item">포스코 광양제철소 제품출하 육송검수장 증축</span><span class="sub-detail">(포스코A&C 재직 당시, 설계관리 및 인허가 참여)</span>
+                    <span class="item">힐스테이트 동탄포레 신축</span><span class="sub-detail">(현대건설 설계팀 재직 당시, 설계관리 및 인허가 참여)</span>
                 </div>
                 
                 <p class="disclaimer">
                     상기 프로젝트들은 대표 건축사가 이전 근무지 재직 당시<br>
                     개인 자격으로 참여한 업무 경험을 바탕으로 한 경력 소개이며,<br>
+                    해당 프로젝트의 저작권 및 수행 주체는 각 회사에 귀속됩니다.<br>
                     본 사무소의 수행 실적과는 명확히 구분됩니다.
                 </p>
             </div>
